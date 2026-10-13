@@ -1,0 +1,34 @@
+{
+  "dataset": {
+    "source": "UCI Student Performance dataset, student-mat.csv",
+    "filename": "student-mat.csv",
+    "rows": 395,
+    "columns": 33,
+    "missing_values": 0,
+    "duplicate_rows": 0
+  },
+  "metrics": {
+    "with_previous_grades": {
+      "mae": 1.6466656197147505,
+      "mse": 5.656642833231222,
+      "rmse": 2.3783697847961367,
+      "r2": 0.7241341236974022
+    },
+    "without_previous_grades": {
+      "mae": 3.395260925801924,
+      "mse": 17.603737398324732,
+      "rmse": 4.195680802721381,
+      "r2": 0.1414924741119571
+    },
+    "dummy_baseline": {
+      "mae": 3.64585002403461,
+      "mse": 20.70414396731293,
+      "rmse": 4.550180652162387,
+      "r2": -0.009709643515769084
+    }
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42
+  }
+}
